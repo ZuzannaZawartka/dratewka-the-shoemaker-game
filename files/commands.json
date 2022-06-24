@@ -1,0 +1,62 @@
+[
+    {
+        "name": "north",
+        "alias": "n",
+        "type": "0",
+        "value": "-10"
+    },
+    {
+        "name": "south",
+        "alias": "s",
+        "type": "0",
+        "value": "10"
+    },
+    {
+        "name": "west",
+        "alias": "w",
+        "type": "0",
+        "value": "-1"
+    },
+    {
+        "name": "east",
+        "alias": "e",
+        "type": "0",
+        "value": "1"
+    },
+    {
+        "name": "take",
+        "alias": "t",
+        "type": "1",
+        "value": "0"
+    },
+    {
+        "name": "drop",
+        "alias": "d",
+        "type": "1",
+        "value": "0"
+    },
+    {
+        "name": "use",
+        "alias": "u",
+        "type": "1",
+        "value": "0"
+    },
+    {
+        "name": "vocabulary",
+        "alias": "v",
+        "type": "2",
+        "value": "0"
+    },
+    {
+        "name": "gossip",
+        "alias": "g",
+        "type": "2",
+        "value": "0"
+    },
+    {
+        "name": "k",
+        "alias": "k",
+        "type": "1",
+        "value": "0"
+    }
+]

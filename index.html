@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: DratewkaFont;
+            src: url(files/fonts/PressStart2P.ttf);
+        }
+
+        body {
+            font-family: DratewkaFont;
+            background-color: rgb(1, 44, 0);
+            color: rgb(112, 160, 116);
+
+
+        }
+
+        input {
+
+            all: unset;
+            background-color: rgb(1, 44, 0);
+            text-transform: uppercase;
+        }
+
+        #img {
+            width: 500px;
+            height: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+
+            background-repeat: no-repeat;
+            border: 5px solid rgb(0, 0, 0);
+            margin-bottom: 1rem;
+        }
+
+        img {
+
+            width: 500px;
+            height: 300px;
+        }
+
+        .text {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        #info {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        #title {
+
+            text-align: center;
+        }
+
+        #container {
+            margin: 0 auto;
+            padding: 0;
+            padding-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        #intro {
+            background-color: rgb(1, 44, 0);
+            background-image: url("files/startImg/start.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 99%;
+            height: 95%;
+            position: absolute;
+            top: 10;
+            background-size: 70% 100%;
+            z-index: 100;
+
+        }
+
+        #images {
+            display: flex;
+        }
+
+        #kompas {
+            width: 500px;
+            height: 300px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background-repeat: no-repeat;
+            margin-bottom: 1rem;
+        }
+
+        #north {
+            right: 280px;
+        }
+
+        #south {
+            right: 270px;
+            top: 360px;
+        }
+
+        #west {
+            right: 500px;
+            top: 220px;
+        }
+
+        #east {
+            right: 40px;
+            top: 220px;
+        }
+
+        .directionsKompas {
+            position: absolute;
+            color: white;
+            z-index: 5;
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="/files/music/hejnalpelplina.mp3" allow="autoplay" style="display:none" id="iframeAudio"> </iframe>
+
+    <div id="intro"></div>
+    <div id="container">
+        <h1 id="title"></h1>
+        <div id="images">
+            <div id="img"></div>
+            <div>
+                <p class="directionsKompas" id="north">N</p>
+                <p class="directionsKompas" id="south">S</p>
+                <p class="directionsKompas" id="west">W</p>
+                <p class="directionsKompas" id="east">E</p>
+                <img id="kompas" src="files/img/kompas.png">
+            </div>
+
+        </div>
+        <div id="info"></div>
+        <div class="text" id="direction"></div>
+        <div class="text" id="see"></div>
+        <div class="text" id="carrying"></div>
+
+
+        <div id="input">
+            <label id="InputLabel">Whats now?</label>
+            <input id="TypeText" type="text">
+        </div>
+    </div>
+
+
+    <script type="module" src="classes/Game.js"></script>
+</body>
+
+</html>
+
+
+</body>

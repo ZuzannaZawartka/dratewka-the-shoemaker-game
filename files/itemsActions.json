@@ -1,0 +1,135 @@
+[
+    {
+        "usedItemID": "10",
+        "locationID": "56",
+        "givenItemID": "11",
+        "milestone": false,
+        "text": "You opened a tool shed and took an axe"
+    },
+    {
+        "usedItemID": "11",
+        "locationID": "67",
+        "givenItemID": "12",
+        "milestone": false,
+        "text": "You cut sticks for sheeplegs"
+    },
+    {
+        "usedItemID": "12",
+        "locationID": "43",
+        "givenItemID": "13",
+        "milestone": true,
+        "text": "You prepared legs for your fake sheep, OK"
+    },
+    {
+        "usedItemID": "14",
+        "locationID": "34",
+        "givenItemID": "15",
+        "milestone": false,
+        "text": "The tavern owner paid you money"
+    },
+    {
+        "usedItemID": "15",
+        "locationID": "37",
+        "givenItemID": "16",
+        "milestone": false,
+        "text": "The cooper sold you a new barrel"
+    },
+    {
+        "usedItemID": "16",
+        "locationID": "43",
+        "givenItemID": "17",
+        "milestone": true,
+        "text": "You made a nice sheeptrunk, OK"
+    },
+    {
+        "usedItemID": "18",
+        "locationID": "36",
+        "givenItemID": "19",
+        "milestone": false,
+        "text": "The butcher gave you wool"
+    },
+    {
+        "usedItemID": "19",
+        "locationID": "43",
+        "givenItemID": "20",
+        "milestone": true,
+        "text": "You prepared skin for your fake sheep, OK"
+    },
+    {
+        "usedItemID": "21",
+        "locationID": "57",
+        "givenItemID": "22",
+        "milestone": false,
+        "text": "You used your tools to make a rag"
+    },
+    {
+        "usedItemID": "22",
+        "locationID": "43",
+        "givenItemID": "23",
+        "milestone": true,
+        "text": "You made a fake sheephead, OK"
+    },
+    {
+        "usedItemID": "24",
+        "locationID": "11",
+        "givenItemID": "25",
+        "milestone": false,
+        "text": "You are digging... (timeout) and digging... (timeout) That's enough sulphur for you"
+    },
+    {
+        "usedItemID": "25",
+        "locationID": "43",
+        "givenItemID": "26",
+        "milestone": true,
+        "text": "You prepared a solid poison, OK"
+    },
+    {
+        "usedItemID": "27",
+        "locationID": "21",
+        "givenItemID": "28",
+        "milestone": false,
+        "text": "You got a bucket full of tar"
+    },
+    {
+        "usedItemID": "28",
+        "locationID": "43",
+        "givenItemID": "29",
+        "milestone": true,
+        "text": "You prepared a liquid poison, OK"
+    },
+    {
+        "usedItemID": "0",
+        "locationID": "43",
+        "givenItemID": "37",
+        "milestone": false,
+        "text": "Your fake sheep is full of poison and ready to be eaten by the dragon"
+    },
+    {
+        "usedItemID": "37",
+        "locationID": "43",
+        "givenItemID": "30",
+        "milestone": true,
+        "text": "The dragon noticed your gift... (timeout) The dragon ate your sheep and died!"
+    },
+    {
+        "usedItemID": "33",
+        "locationID": "43",
+        "givenItemID": "34",
+        "milestone": false,
+        "text": "You cut a piece of dragon's skin"
+    },
+    {
+        "usedItemID": "34",
+        "locationID": "57",
+        "givenItemID": "35",
+        "milestone": false,
+        "text": "You used your tools to make shoes"
+    },
+    {
+        "usedItemID": "35",
+        "locationID": "41",
+        "givenItemID": "36",
+        "milestone": false,
+        "text": "The King is impressed by your shoes"
+    }
+]
